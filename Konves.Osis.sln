@@ -12,7 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{9B68E10D-772B-4B1E-B5EB-36B681263BA4}"
 	ProjectSection(SolutionItems) = preProject
 		appveyor.yml = appveyor.yml
-		update-version.ps1 = update-version.ps1
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global

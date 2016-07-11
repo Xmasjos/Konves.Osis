@@ -12,4 +12,3 @@ before_package:
     (Get-Content "$env:APPVEYOR_BUILD_FOLDER\src\Konves.Osis\Konves.Osis.nuspec") `
         -replace '<version>[^<]*?</version>', ('<version>{0}</version>' -f $env:APPVEYOR_BUILD_VERSION) |
       Out-File "$env:APPVEYOR_BUILD_FOLDER\src\Konves.Osis\Konves.Osis.nuspec"
-
