@@ -8,4 +8,8 @@ build:
   publish_nuget: true
   verbosity: minimal
 before_package:
-- cmd: $(appveyor_build_folder)\update-version.ps1 -file $(appveyor_build_folder)\src\Konves.Osis\Konves.Osis.nuspec -version $(appveyor_build_version)
+- ps: >-
+    (Get-Content "$env:APPVEYOR_BUILD_FOLDER\src\Konves.Osis\Konves.Osis.nuspec") `
+        -replace '<version>[^<]*?</version>', ('<version>{0}</version>' -f $env:APPVEYOR_BUILD_VERSION) |
+      Out-File "$env:APPVEYOR_BUILD_FOLDER\src\Konves.Osis\Konves.Osis.nuspec"
+
