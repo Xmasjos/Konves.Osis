@@ -1,5 +1,5 @@
 version: 1.0.{build}
 configuration: Release
 build:
-  publish_nuget: false
+  publish_nuget: true
   verbosity: minimal
