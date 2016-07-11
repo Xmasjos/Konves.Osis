@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>konves.osis</id>
+    <version>0.0.1</version>
+    <authors>skonves</authors>
+    <owners>skonves</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/skonves/Konves.Osis</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>XML serializer for OSIS (Open Scripture Information Standard) files</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2016 Steve Konves</copyright>
+    <tags>OSIS serilaizer parser</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
