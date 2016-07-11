@@ -8,4 +8,4 @@ build:
   publish_nuget: true
   verbosity: minimal
 before_package:
-- cmd: .\update-version.ps1 -file .\src\Konves.Osis\Konves.Osis.nuspec -version $(appveyor_build_version)
+- cmd: $(appveyor_build_folder)\update-version.ps1 -file $(appveyor_build_folder)\src\Konves.Osis\Konves.Osis.nuspec -version $(appveyor_build_version)
