@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/skonves/Konves.Osis</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>XML serializer for OSIS (Open Scripture Information Standard) files</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes></releaseNotes>
     <copyright>Copyright 2016 Steve Konves</copyright>
     <tags>OSIS serilaizer parser</tags>
     <dependencies>
