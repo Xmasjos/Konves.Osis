@@ -19,5 +19,5 @@ using System.Reflection;
 [assembly: AssemblyDescription("OSIS Document serialization")]
 [assembly: AssemblyProduct("Konves.Osis")]
 [assembly: AssemblyCopyright("Copyright © Steve Konves 2016")]
-[assembly: AssemblyVersion("0.1.*")]
-[assembly: AssemblyFileVersion("0.1.*")]
+[assembly: AssemblyVersion("0.1.1")]
+[assembly: AssemblyFileVersion("0.1.1")]
