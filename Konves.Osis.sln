@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F156DB2-D7E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konves.Osis", "src\Konves.Osis\Konves.Osis.csproj", "{25EDC94A-1E75-44CD-99F0-52269B69AE0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zefania", "src\Zefania\Zefania.csproj", "{84005AE7-5AC9-433B-875A-80F6616891A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,8 +34,21 @@ Global
 		{25EDC94A-1E75-44CD-99F0-52269B69AE0C}.Release|x64.Build.0 = Release|Any CPU
 		{25EDC94A-1E75-44CD-99F0-52269B69AE0C}.Release|x86.ActiveCfg = Release|Any CPU
 		{25EDC94A-1E75-44CD-99F0-52269B69AE0C}.Release|x86.Build.0 = Release|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Debug|x64.Build.0 = Debug|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Debug|x86.Build.0 = Debug|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Release|x64.ActiveCfg = Release|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Release|x64.Build.0 = Release|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Release|x86.ActiveCfg = Release|Any CPU
+		{84005AE7-5AC9-433B-875A-80F6616891A8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{25EDC94A-1E75-44CD-99F0-52269B69AE0C} = {3F156DB2-D7EB-42E7-8F79-FC4C09D4C5FB}
+		{84005AE7-5AC9-433B-875A-80F6616891A8} = {3F156DB2-D7EB-42E7-8F79-FC4C09D4C5FB}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <!-- <RootNamespace>Konves.Osis</RootNamespace>
+    <AssemblyName>Konves.Osis</AssemblyName> -->
+    <!-- <ProjectGuid>{25EDC94A-1E75-44CD-99F0-52269B69AE0C}</ProjectGuid> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- <None Include="Konves.Osis.nuspec" /> -->
+    <None Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="$(SolutionDir)tools\xsd.exe $(SolutionDir)data\zef2005.xsd /c /n:Zefania.ObjectModel /o:$(SolutionDir)src\Zefania\ObjectModel\" />
+  </Target>
+
+</Project>
