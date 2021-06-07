@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="$(SolutionDir)tools\xsd.exe $(SolutionDir)data\zef2005.xsd /c /n:Zefania.ObjectModel /o:$(SolutionDir)src\Zefania\ObjectModel\" />
+    <Exec Command="$(ProjectDir)..\..\tools\xsd.exe $(ProjectDir)..\..\data\zef2005.xsd /c /n:Zefania.ObjectModel /o:$(ProjectDir)ObjectModel\" />
   </Target>
 
 </Project>

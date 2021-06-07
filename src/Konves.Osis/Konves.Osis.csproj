@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="$(SolutionDir)tools\xsd.exe $(SolutionDir)data\osisCore.2.1.1.xsd /c /n:Konves.Osis.ObjectModel /o:$(SolutionDir)src\Konves.Osis\ObjectModel\" />
+    <Exec Command="$(ProjectDir)..\..\tools\xsd.exe $(ProjectDir)..\..\data\osisCore.2.1.1.xsd /c /n:Konves.Osis.ObjectModel /o:$(ProjectDir)\ObjectModel\" />
   </Target>
 
 </Project>
